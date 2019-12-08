@@ -1,0 +1,192 @@
+[
+	{
+		"title": "dryadinteract",
+		"tags": "",
+		"body": "What do you want?\n[[Got any tips for me?|dryadhelp]][[I just want to chat|dryadchat]][[Who are you?|dryadinfo]][[Nothing|Leave]]",
+		"position": {
+			"x": 394,
+			"y": 137
+		},
+		"colorID": 2
+	},
+	{
+		"title": "dryadhelp",
+		"tags": "",
+		"body": "<<startdryadhelp>> ",
+		"position": {
+			"x": 118,
+			"y": 152
+		},
+		"colorID": 6
+	},
+	{
+		"title": "dryadchat",
+		"tags": "",
+		"body": "<<startdryadchat>> ",
+		"position": {
+			"x": 686,
+			"y": 140
+		},
+		"colorID": 6
+	},
+	{
+		"title": "dryadinfo",
+		"tags": "",
+		"body": "I'm a Dryad, a female tree spirit...\nCan't you tell I'm a woman by my girlish figure?\nENTs are much scarier than us!\nThey are truly monstrous...\nBut our only option I guess...\nThank Gaia for sexual dimorphism\n[[Whatever you say...|dryadinfoend]][[ENTs much be desperate...|dryadinfoend]]",
+		"position": {
+			"x": 386,
+			"y": -192
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Leave",
+		"tags": "",
+		"body": "Until next time...\nIf you survive until next time that is...\n[[That's cheerful...|dryadgoodbye]] [[I'll try...|dryadgoodbye]] ",
+		"position": {
+			"x": 388,
+			"y": 458
+		},
+		"colorID": 6
+	},
+	{
+		"title": "dryadchat1",
+		"tags": "",
+		"body": "I think I saw a vampire go through one of those doors earlier...\nYou HAVE to tell me if you see one!\nVampires are so dreamy...\n[[Sure if you don't have blood...|dryadchatend]][[Maybe if it's Brad Pitt...|dryadchatend]] ",
+		"position": {
+			"x": 924,
+			"y": -225
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp1",
+		"tags": "",
+		"body": "Maybe you should try going through one of those doors...\nWatch out for other trees though!\nThey aren't all as nice and beautiful as I am...\n[[Sure...|dryadhelpend]][[I'll try...|dryadhelpend]]",
+		"position": {
+			"x": -156,
+			"y": -252
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp2",
+		"tags": "",
+		"body": "Be wary of pregnant women...\nHave you ever seen one of them angry?\n*shudder*\nI'm so glad Dryads don't get pregnant like humans...\nI would never do that to my body!\n[[I think it's amazing our bodies can do that|dryadhelpend]][[I agree,pregnancy is terrifying!|dryadhelpend]]",
+		"position": {
+			"x": -148,
+			"y": -34
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp3",
+		"tags": "",
+		"body": "Watch out for women who dress in skimpy clothing...\nThey always attract danger...\n[[That does seem to be true...|dryadhelpend]] [[Wow...slut shame much?|dryadhelpend]]",
+		"position": {
+			"x": -141,
+			"y": 178
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp4",
+		"tags": "",
+		"body": "Level2help\n[[|dryadhelpend]] ",
+		"position": {
+			"x": -138,
+			"y": 393
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp5",
+		"tags": "",
+		"body": "Level4help\n[[|dryadhelpend]] ",
+		"position": {
+			"x": -140,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchat2",
+		"tags": "",
+		"body": "You'd be surprised at how old I am...\nI know older women are only supposed to be wise if we look our age...\nBut I am very wise even if my bark is flawless...\n[[Yes, you do look lovely|dryadchatend]][[Hmmmm...|dryadchatend]] ",
+		"position": {
+			"x": 924,
+			"y": -16
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchat3",
+		"tags": "",
+		"body": "Letting men do boring jobs makes things so much easier don't you think?\nThis way I can focus on my bark-care routine...\nBeing beautiful is much more important than making rules!\n[[I suppose...|dryadchatend]][[Are you serious right now?|dryadchatend]] ",
+		"position": {
+			"x": 924,
+			"y": 192
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchat4",
+		"tags": "",
+		"body": "I know you didn't ask for advice, but you'd better put on some more clothes...\nYou wouldn't want men to get the wrong impression...\nThey might hurt you...\n[[I'll get right on that...|dryadchatend]] [[Maybe men should control themselves...|dryadchatend]] ",
+		"position": {
+			"x": 924,
+			"y": 405
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchat5",
+		"tags": "",
+		"body": "Go away!\nI am primping my leaves for a date with this fearsome ENT who asked me out...\n[[Good luck!|dryadchatend]] [[Hmmmm...|dryadchatend]] ",
+		"position": {
+			"x": 925,
+			"y": 616
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadinfoend",
+		"tags": "",
+		"body": "<<endtext>>",
+		"position": {
+			"x": 367,
+			"y": -462
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelpend",
+		"tags": "",
+		"body": "<<dryadhelpend>>",
+		"position": {
+			"x": -477,
+			"y": 84
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchatend",
+		"tags": "",
+		"body": "<<dryadchatend>>",
+		"position": {
+			"x": 1298,
+			"y": 112
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadgoodbye",
+		"tags": "",
+		"body": "<<endtext>>",
+		"position": {
+			"x": 387,
+			"y": 742
+		},
+		"colorID": 0
+	}
+]

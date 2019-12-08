@@ -1,0 +1,172 @@
+[
+	{
+		"title": "doorroom1",
+		"tags": "",
+		"body": "Enter The Fiendish Forest?.\n[[ yes | enterdoorroom1 ]] [[ no | cancelenterdoorroom1 ]]",
+		"position": {
+			"x": 4441,
+			"y": 261
+		},
+		"colorID": 3
+	},
+	{
+		"title": "cancelenterdoorroom1",
+		"tags": "",
+		"body": "<<enddoorright>> ",
+		"position": {
+			"x": 4310,
+			"y": 534
+		},
+		"colorID": 0
+	},
+	{
+		"title": "enterdoorroom1",
+		"tags": "",
+		"body": "<<enterDoorRoom1>>",
+		"position": {
+			"x": 4296,
+			"y": -71
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorroom3",
+		"tags": "",
+		"body": "Enter The Cullen House?\n[[ yes | enterdoorroom3 ]] [[ no | cancelenterdoorroom3 ]]",
+		"position": {
+			"x": 4443,
+			"y": -675
+		},
+		"colorID": 3
+	},
+	{
+		"title": "enterdoorroom3",
+		"tags": "",
+		"body": " <<enterDoorRoom3>>",
+		"position": {
+			"x": 4280,
+			"y": -977
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cancelenterdoorroom3",
+		"tags": "",
+		"body": "<<enddoorright>> ",
+		"position": {
+			"x": 4321,
+			"y": -379
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorroom4",
+		"tags": "",
+		"body": "Enter DoorRoom4?.\n[[ yes | enterdoorroom4 ]] [[ no | cancelenterdoorroom4 ]]",
+		"position": {
+			"x": 3576,
+			"y": -661
+		},
+		"colorID": 3
+	},
+	{
+		"title": "enterdoorroom4",
+		"tags": "",
+		"body": "<<enterDoorRoom4>>",
+		"position": {
+			"x": 3695,
+			"y": -953
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cancelenterdoorroom4",
+		"tags": "",
+		"body": "<<enddoorleft>>",
+		"position": {
+			"x": 3667,
+			"y": -393
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorroom2",
+		"tags": "",
+		"body": "Enter The Madonna/Whore Complex?.\n[[ yes | enterdoorroom2 ]] [[ no | cancelenterdoorroom2 ]]",
+		"position": {
+			"x": 3583,
+			"y": 250
+		},
+		"colorID": 3
+	},
+	{
+		"title": "enterdoorroom2",
+		"tags": "",
+		"body": "<<enterDoorRoom2>>",
+		"position": {
+			"x": 3667,
+			"y": -54
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cancelenterdoorroom2",
+		"tags": "",
+		"body": "<<enddoorleft>> ",
+		"position": {
+			"x": 3711,
+			"y": 539
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadintro",
+		"tags": "",
+		"body": "Oh, congratulations on making it past those awful murderesses...\nIt's not very lady-like of them don't you think?\nOf course, your previous cunning does not mean you will survive this level...\nAfterall, death is inevitable...for humans...\nRemember to find me if you need anything...\nI'll be much more helpful than that awful Bloody Mary!\nI mean, if I feel like it...\n[[Thank you...I think... | dryadintrodone ]] [[Alright then... | dryadintrodone]]",
+		"position": {
+			"x": 4690,
+			"y": -277
+		},
+		"colorID": 2
+	},
+	{
+		"title": "dryadintrodone",
+		"tags": "",
+		"body": "<<dryadintrodone>>\n<<endtext>>",
+		"position": {
+			"x": 4806,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "characterperiod",
+		"tags": "",
+		"body": "Oh my Gaia! Are you BLEEDING from *there*?!\nI've heard human women do that...\nI didn't think it was real though...\nHow BARBARIC!\n[[It's just a period...|characterperiodend]] [[Too bad this building doesn't have tampons!|characterperiodend]] ",
+		"position": {
+			"x": 3364,
+			"y": -210
+		},
+		"colorID": 0
+	},
+	{
+		"title": "characterperiodend",
+		"tags": "",
+		"body": "<<characterperiodend>> ",
+		"position": {
+			"x": 3119,
+			"y": -216
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorend",
+		"tags": "",
+		"body": "Maybe never.....",
+		"position": {
+			"x": 3980,
+			"y": -314
+		},
+		"colorID": 0
+	}
+]

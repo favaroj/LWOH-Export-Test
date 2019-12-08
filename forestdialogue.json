@@ -1,0 +1,152 @@
+[
+	{
+		"title": "dryadforestinteract",
+		"tags": "",
+		"body": "The rain feels so good on my leaves...\nWhat do you want?\n[[Can you help me?|foresthelp]][[Let's chat|forestchat]][[Where am I?|forestinfo]][[Let's talk later|forestleave]]",
+		"position": {
+			"x": 586,
+			"y": 660
+		},
+		"colorID": 0
+	},
+	{
+		"title": "foresthelp",
+		"tags": "",
+		"body": "<<startforesthelp>> ",
+		"position": {
+			"x": 295,
+			"y": 667
+		},
+		"colorID": 0
+	},
+	{
+		"title": "forestchat",
+		"tags": "",
+		"body": "<<startforestchat>> ",
+		"position": {
+			"x": 829,
+			"y": 658
+		},
+		"colorID": 0
+	},
+	{
+		"title": "forestinfo",
+		"tags": "",
+		"body": "This is the Fiendish Forest...\nI don't think it's *that* dangerous...\nMostly the trees here annoy me!\nThey all think they are SO special just cause they live in one place...\n*huff*\n[[It's pretty scary here...|infoend]][[The trees don't look so bad...|infoend]] ",
+		"position": {
+			"x": 581,
+			"y": 415
+		},
+		"colorID": 0
+	},
+	{
+		"title": "forestleave",
+		"tags": "",
+		"body": "Until next time...\nIf you ever back to the school...\n[[An optimist as always...|forestleaveend]][[If I even want to make it back...|forestleaveend]] ",
+		"position": {
+			"x": 585,
+			"y": 902
+		},
+		"colorID": 0
+	},
+	{
+		"title": "infoend",
+		"tags": "",
+		"body": "<<forestend>> ",
+		"position": {
+			"x": 557,
+			"y": 171
+		},
+		"colorID": 0
+	},
+	{
+		"title": "forestleaveend",
+		"tags": "",
+		"body": "<<forestend>> ",
+		"position": {
+			"x": 578,
+			"y": 1150
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENTspeech",
+		"tags": "",
+		"body": "What are you doing in my forest?!\n[[I didn't come here by choice...|ENT1]][[What makes it your forest?|ENT2]]",
+		"position": {
+			"x": -819,
+			"y": 692
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENT1",
+		"tags": "",
+		"body": "So?!\nGET OUT!\nI can tell you're a woman and women DO AS THEY ARE TOLD!",
+		"position": {
+			"x": -1151,
+			"y": 693
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENT2",
+		"tags": "",
+		"body": "I am the oldest male tree in this forest!\nThat makes it mine!",
+		"position": {
+			"x": -508,
+			"y": 691
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENTcling",
+		"tags": "",
+		"body": "Wait...\nCome back!\n[[What in the world do you want?|entcling1]][[Okay fine...|entcling2]]",
+		"position": {
+			"x": -818,
+			"y": 435
+		},
+		"colorID": 0
+	},
+	{
+		"title": "entcling1",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -1147,
+			"y": 448
+		},
+		"colorID": 0
+	},
+	{
+		"title": "entcling2",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -526,
+			"y": 437
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp1",
+		"tags": "",
+		"body": "Watch out for that ENT over there...\nCan you say stage 5 clinger?\n<<dryadhelpend>> ",
+		"position": {
+			"x": 56,
+			"y": 328
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp2",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 46,
+			"y": 556
+		},
+		"colorID": 0
+	}
+]

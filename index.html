@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+            overflow: hidden;
+		}
+        #canvasArea {
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
+
+        @font-face{ font-family : "gdjs_font_Domestic_Manners.ttf"; src : url('Domestic_Manners.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Love Like This - TTF.ttf"; src : url('Love Like This - TTF.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_OLDTYPEPERSONALUSE___.otf"; src : url('OLDTYPEPERSONALUSE___.otf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_QWERTYpe.ttf"; src : url('QWERTYpe.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SourceCodePro-Bold.ttf"; src : url('SourceCodePro-Bold.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_vVWweRraType.ttf"; src : url('vVWweRraType.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_WORDSOFLOVE.ttf"; src : url('WORDSOFLOVE.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_HandymandiFree.ttf"; src : url('HandymandiFree.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_pumpkin_font.ttf"; src : url('pumpkin_font.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Aardvark Cwm Type.ttf"; src : url('Aardvark Cwm Type.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_aesymatt.ttf"; src : url('aesymatt.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Altum.ttf"; src : url('Altum.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Ancient Modern Tales.otf"; src : url('Ancient Modern Tales.otf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_bf_mnemonika_regular.ttf"; src : url('bf_mnemonika_regular.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_BleedingPixels.ttf"; src : url('BleedingPixels.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Bratus.ttf"; src : url('Bratus.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_CREBER.ttf"; src : url('CREBER.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_creeper_pixel.ttf"; src : url('creeper_pixel.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Crumbled-Pixels.ttf"; src : url('Crumbled-Pixels.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Deflated-And-Sloppy.ttf"; src : url('Deflated-And-Sloppy.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_DejaVuSans.ttf"; src : url('DejaVuSans.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_DollPixellowzz.ttf"; src : url('DollPixellowzz.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_duh_pixels.ttf"; src : url('duh_pixels.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Fajrostormo-w11vZ.ttf"; src : url('Fajrostormo-w11vZ.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_FantasticBoogaloo-GDlq.ttf"; src : url('FantasticBoogaloo-GDlq.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_FontoceanRegular-8xMM.ttf"; src : url('FontoceanRegular-8xMM.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_GhastlyPixe.ttf"; src : url('GhastlyPixe.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_HandPixies.ttf"; src : url('HandPixies.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_hometown_memesbruh03.ttf"; src : url('hometown_memesbruh03.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Lady Radical.ttf"; src : url('Lady Radical.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_light_pixel-7.ttf"; src : url('light_pixel-7.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_LittleMissLoudonBold-VGO9l.ttf"; src : url('LittleMissLoudonBold-VGO9l.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_MIASMA__.TTF"; src : url('MIASMA__.TTF') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Mono a Mano.ttf"; src : url('Mono a Mano.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Nightmare Codehack.otf"; src : url('Nightmare Codehack.otf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Nox.ttf"; src : url('Nox.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_patheticbit.ttf"; src : url('patheticbit.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Pixel Case.ttf"; src : url('Pixel Case.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Pixel Musketeer.ttf"; src : url('Pixel Musketeer.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Pixel_Distortion.ttf"; src : url('Pixel_Distortion.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_pixel_pirate.ttf"; src : url('pixel_pirate.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Pixelbroidery.ttf"; src : url('Pixelbroidery.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_PixelLove-WqGv.ttf"; src : url('PixelLove-WqGv.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_pixelpoiiz.ttf"; src : url('pixelpoiiz.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_PixelsDream-DemiBold.ttf"; src : url('PixelsDream-DemiBold.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_PixelSleighRegular-r0aA.ttf"; src : url('PixelSleighRegular-r0aA.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_poh_pixels.ttf"; src : url('poh_pixels.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Precursor.ttf"; src : url('Precursor.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Quicksand-Bold.ttf"; src : url('Quicksand-Bold.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Quicksand-Regular.ttf"; src : url('Quicksand-Regular.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_RDJ-HandPixl.otf"; src : url('RDJ-HandPixl.otf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Romantics.ttf"; src : url('Romantics.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Sanguis.ttf"; src : url('Sanguis.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_ScarletDevilPixe.ttf"; src : url('ScarletDevilPixe.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SOBAD___.ttf"; src : url('SOBAD___.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SOCOND__.ttf"; src : url('SOCOND__.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SOEXT___.ttf"; src : url('SOEXT___.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Son of X51.ttf"; src : url('Son of X51.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SOSHAD__.ttf"; src : url('SOSHAD__.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SOSUE___.ttf"; src : url('SOSUE___.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SOWIDE__.ttf"; src : url('SOWIDE__.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SuperiorPixel.otf"; src : url('SuperiorPixel.otf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_SuperiorPixel.ttf"; src : url('SuperiorPixel.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_TEACP___.TTF"; src : url('TEACP___.TTF') format('truetype'); }
+@font-face{ font-family : "gdjs_font_TEACPB__.TTF"; src : url('TEACPB__.TTF') format('truetype'); }
+@font-face{ font-family : "gdjs_font_Volu.ttf"; src : url('Volu.ttf') format('truetype'); }
+@font-face{ font-family : "gdjs_font_ZazGorrila.ttf"; src : url('ZazGorrila.ttf') format('truetype'); }
+
+	</style>
+    <!-- Libs and GDJS core files : -->
+		<script src="libs\jshashtable.js" crossorigin="anonymous"></script>
+	<script src="gd.js" crossorigin="anonymous"></script>
+	<script src="gd-splash-image.js" crossorigin="anonymous"></script>
+	<script src="libs\hshg.js" crossorigin="anonymous"></script>
+	<script src="libs\rbush.js" crossorigin="anonymous"></script>
+	<script src="inputmanager.js" crossorigin="anonymous"></script>
+	<script src="jsonmanager.js" crossorigin="anonymous"></script>
+	<script src="timemanager.js" crossorigin="anonymous"></script>
+	<script src="runtimeobject.js" crossorigin="anonymous"></script>
+	<script src="profiler.js" crossorigin="anonymous"></script>
+	<script src="runtimescene.js" crossorigin="anonymous"></script>
+	<script src="scenestack.js" crossorigin="anonymous"></script>
+	<script src="polygon.js" crossorigin="anonymous"></script>
+	<script src="force.js" crossorigin="anonymous"></script>
+	<script src="layer.js" crossorigin="anonymous"></script>
+	<script src="timer.js" crossorigin="anonymous"></script>
+	<script src="runtimegame.js" crossorigin="anonymous"></script>
+	<script src="variable.js" crossorigin="anonymous"></script>
+	<script src="variablescontainer.js" crossorigin="anonymous"></script>
+	<script src="oncetriggers.js" crossorigin="anonymous"></script>
+	<script src="runtimebehavior.js" crossorigin="anonymous"></script>
+	<script src="spriteruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="events-tools\commontools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\runtimescenetools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\inputtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\objecttools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\cameratools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\soundtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\storagetools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\stringtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\windowtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools\networktools.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\pixi.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\pixi-filters-tools.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\runtimegame-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\runtimescene-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\layer-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\pixi-image-manager.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\spriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers\loadingscreen-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="howler-sound-manager\howler.min.js" crossorigin="anonymous"></script>
+	<script src="howler-sound-manager\howler-sound-manager.js" crossorigin="anonymous"></script>
+	<script src="fontfaceobserver-font-manager\fontfaceobserver.js" crossorigin="anonymous"></script>
+	<script src="fontfaceobserver-font-manager\fontfaceobserver-font-manager.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__health__health.js" crossorigin="anonymous"></script>
+	<script src="Extensions\PanelSpriteObject\panelspriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions\PanelSpriteObject\panelspriteruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions\PathfindingBehavior\pathfindingobstacleruntimebehavior.js" crossorigin="anonymous"></script>
+	<script src="Extensions\PathfindingBehavior\pathfindingruntimebehavior.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TextEntryObject\textentryruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TextEntryObject\textentryruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TextObject\textruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TextObject\textruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TopDownMovementBehavior\topdownmovementruntimebehavior.js" crossorigin="anonymous"></script>
+	<script src="code0.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__flash__flash.js" crossorigin="anonymous"></script>
+	<script src="Extensions\DialogueTree\bondage.min.js" crossorigin="anonymous"></script>
+	<script src="Extensions\DialogueTree\dialoguetools.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TiledSpriteObject\tiledspriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions\TiledSpriteObject\tiledspriteruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="code1.js" crossorigin="anonymous"></script>
+	<script src="code2.js" crossorigin="anonymous"></script>
+	<script src="code3.js" crossorigin="anonymous"></script>
+	<script src="code4.js" crossorigin="anonymous"></script>
+	<script src="code5.js" crossorigin="anonymous"></script>
+	<script src="code6.js" crossorigin="anonymous"></script>
+	<script src="data.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    
+	<script>
+
+    (function() {
+        //Initialization
+        gdjs.registerObjects();
+        gdjs.registerBehaviors();
+        gdjs.registerGlobalCallbacks();
+
+        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+
+        //Create a renderer
+        game.getRenderer().createStandardCanvas(document.body);
+
+        //Bind keyboards/mouse/touch events
+        game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
+
+        //Load all assets and start the game
+        game.loadAllAssets(function() {
+            game.startGameLoop();
+        });
+    })();
+
+	</script>
+</body>
+</html>
